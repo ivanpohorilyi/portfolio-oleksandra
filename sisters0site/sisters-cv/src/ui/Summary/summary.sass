@@ -1,0 +1,87 @@
+a
+    color: black
+    text-decoration: none
+
+.summary-title
+    font-size: 30px
+    margin-bottom: 30px
+    font-family: "Century Gothic Bold"
+
+.block-1
+    font-size: 16px
+    font-family: "Century Gothic"
+    width: 43vh
+    line-height: 20px
+    text-align: justify
+
+.block-1 p
+    margin-bottom: 30px
+    &:last-child
+        margin-bottom: 0
+
+.block-2
+    font-family: "Century Gothic"
+    margin-top: 50px
+    line-height: 20px
+
+.block-2 a
+    display: block
+    font-size: 15px
+    margin-bottom: 10px
+    display: flex
+
+.summary-btn
+    margin-right: 5px
+    color: grey
+    &:hover
+        text-decoration: underline
+
+.open-link
+    &:hover
+        text-decoration: underline
+
+.block-3
+    font-family: "Century Gothic"
+    margin-top: 50px
+    display: flex
+    flex-direction: column
+
+.block-3 a
+    margin-bottom: 20px
+    &:hover
+        text-decoration: underline
+    &:last-child
+        margin-bottom: 0
+
+$small: 280px
+$medium: 960px
+
+@media screen and (min-width: #{$small}) and (max-width: #{$medium})
+    .body-container
+        align-content: center
+        justify-content: center
+    .summary-container
+        display: flex
+        flex-direction: column
+        align-items: center
+    .block-2, .block-3
+        text-align: center
+    .block-1
+        font-size: 13px
+        text-align: justify
+    .block-3
+        margin-top: 10px
+        border-top: 1px solid black
+        padding-top: 10px
+    .block-2
+        border-top: 1px solid black
+        padding-top: 10px
+        margin-top: 10px
+
+@media (max-width: 502px)
+    .summary-title
+        font-size: 30px
+        text-align: center
+        margin-bottom: 30px
+    .block-1
+        width: 25vh

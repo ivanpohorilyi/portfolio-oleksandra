@@ -1,0 +1,55 @@
+.portfolio-container
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  gap: 20px
+  width: 80vh
+
+.project-card
+  cursor: pointer
+  position: relative
+  width: 300px
+  text-align: center
+  margin: 20px auto
+  display: flex
+  flex-direction: column
+ 
+  // На десктопах увеличиваем карточку на 50%
+  @media (min-width: 768px)
+    width: 350px // Увеличиваем размер карточки на 50% для десктопа
+    height: 250px // Увеличиваем высоту карточки для десктопа
+
+  // Для изображения внутри карточки
+  img
+    width: 100%
+    height: 250px // Фиксируем высоту изображения
+    border-radius: 10px
+    object-fit: cover
+
+  // Для текста внутри карточки
+  .card-title
+    position: absolute
+    bottom: 0
+    left: 0
+    right: 0
+    color: #fff
+    background-color: rgba(0, 0, 0, 0.6)
+    padding: 10px 20px
+    border-radius: 5px
+    text-align: center
+    font-size: 14px
+
+  // Модальные окна
+  .modal-body
+    display: flex
+    flex-direction: column
+    gap: 20px
+    width: 100%
+
+  // Мобильная версия: оставляем стиль без изменений
+  @media (max-width: 767px)
+    // .portfolio-container
+    //     width: 50vh
+    .project-card
+      width: 100% // На мобильных устройствах оставляем карточку по ширине экрана
+      
