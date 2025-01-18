@@ -1,87 +1,142 @@
-a
-    color: black
-    text-decoration: none
-
-.summary-title
-    font-size: 30px
-    margin-bottom: 30px
-    font-family: "Century Gothic Bold"
-
-.block-1
-    font-size: 16px
-    font-family: "Century Gothic"
-    width: 43vh
-    line-height: 20px
-    text-align: justify
-
-.block-1 p
-    margin-bottom: 30px
-    &:last-child
-        margin-bottom: 0
-
-.block-2
-    font-family: "Century Gothic"
-    margin-top: 50px
-    line-height: 20px
-
-.block-2 a
-    display: block
-    font-size: 15px
-    margin-bottom: 10px
-    display: flex
-
-.summary-btn
-    margin-right: 5px
-    color: grey
-    &:hover
-        text-decoration: underline
-
-.open-link
-    &:hover
-        text-decoration: underline
-
-.block-3
-    font-family: "Century Gothic"
-    margin-top: 50px
-    display: flex
-    flex-direction: column
-
-.block-3 a
-    margin-bottom: 20px
-    &:hover
-        text-decoration: underline
-    &:last-child
-        margin-bottom: 0
-
+// Variables
 $small: 280px
 $medium: 960px
+$min: 960px
+$max: 1486px
 
-@media screen and (min-width: #{$small}) and (max-width: #{$medium})
-    .body-container
-        align-content: center
-        justify-content: center
-    .summary-container
-        display: flex
-        flex-direction: column
-        align-items: center
-    .block-2, .block-3
-        text-align: center
-    .block-1
-        font-size: 13px
-        text-align: justify
-    .block-3
-        margin-top: 10px
-        border-top: 1px solid black
-        padding-top: 10px
-    .block-2
-        border-top: 1px solid black
-        padding-top: 10px
-        margin-top: 10px
+// General styles
+a
+  color: black
+  text-decoration: none
 
-@media (max-width: 502px)
-    .summary-title
-        font-size: 30px
-        text-align: center
-        margin-bottom: 30px
-    .block-1
-        width: 25vh
+.summary-btn
+  margin-right: 5px
+  color: grey
+
+  &:hover
+    text-decoration: underline
+
+.open-link
+  &:hover
+    text-decoration: underline
+
+// Summary title
+.summary-title
+  font-size: 30px
+  margin-bottom: 30px
+  font-family: "Century Gothic Bold"
+  text-align: justify
+
+  @media screen and (min-width: $min) and (max-width: $max)
+    text-align: center
+
+  @media (max-width: 502px)
+    font-size: 30px
+    text-align: center
+    margin-bottom: 0
+
+// Block 1
+.block-1
+  font-size: 16px
+  font-family: "Century Gothic"
+  line-height: 20px
+  text-align: justify
+  margin-top: 30px
+
+  p
+    margin-bottom: 30px
+
+    &:last-child
+      margin-bottom: 0
+
+  @media screen and (min-width: $small) and (max-width: $medium)
+    font-size: 13px
+    text-align: justify
+
+  @media (max-width: 502px)
+    width: 32vh
+
+// Block 2
+.block-2
+  font-family: "Century Gothic"
+  margin-top: 50px
+  line-height: 20px
+
+  a
+    display: flex
+    font-size: 15px
+    margin-bottom: 10px
+
+    @media (max-width: 502px)
+      font-size: 12px
+
+  @media screen and (min-width: $min) and (max-width: $max)
+    display: flex
+    flex-direction: column
+    align-items: center
+    text-align: center
+    padding-top: 40px
+    margin-top: 10px
+
+  @media screen and (min-width: $small) and (max-width: $medium)
+    display: flex
+    flex-direction: column
+    align-items: center
+    text-align: center
+    padding-top: 40px
+    margin-top: 10px
+
+// Block 3
+.block-3
+  font-family: "Century Gothic"
+  margin-top: 50px
+  display: flex
+  flex-direction: column
+
+  a
+    margin-bottom: 20px
+
+    &:hover
+      text-decoration: underline
+
+    &:last-child
+      margin-bottom: 0
+
+    @media (max-width: 502px)
+      font-size: 12px
+
+  @media screen and (min-width: $min) and (max-width: $max)
+    text-align: center
+    margin-top: 10px
+    padding-top: 10px
+    margin-bottom: 30px
+
+  @media screen and (min-width: $small) and (max-width: $medium)
+    text-align: center
+    margin-top: 10px
+    padding-top: 10px
+    margin-bottom: 30px
+
+// Body and container styles
+.body-container
+  @media screen and (min-width: $small) and (max-width: $medium)
+    align-content: center
+    justify-content: center
+
+.summary-container
+  width: 397px
+
+  @media (max-width: $min)
+    margin: 0 auto
+
+  @media screen and (min-width: $small) and (max-width: $medium)
+    display: flex
+    flex-direction: column
+    align-items: center
+
+.fixed-summary
+  @media screen and (min-width: $medium)
+    position: fixed
+    top: 0
+    left: 15%
+    z-index: 1000

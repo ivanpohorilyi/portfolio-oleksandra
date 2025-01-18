@@ -2,141 +2,411 @@
   {
     "id": "project-1",
     "title": "House in Brovary",
-    "mainImage": "/src/image/projects-images/project-1/1.2.jpg",
+    "mainImage": "/project-1/1.2.jpg",
     "images": [
-      "/src/image/projects-images/project-1/1.1.jpg",
-      "/src/image/projects-images/project-1/1.2.jpg",
-      "/src/image/projects-images/project-1/1.3.jpg",
-      "/src/image/projects-images/project-1/1.4.jpg",
-      "/src/image/projects-images/project-1/1.5.jpg",
-      "/src/image/projects-images/project-1/1.6.jpg",
-      "/src/image/projects-images/project-1/1.7.jpg",
-      "/src/image/projects-images/project-1/1.8.jpg"
+      "/project-1/1.1.jpg",
+      "/project-1/1.2.jpg",
+      "/project-1/1.3.jpg",
+      "/project-1/1.4.jpg",
+      "/project-1/1.5.jpg",
+      "/project-1/1.6.jpg",
+      "/project-1/1.7.jpg",
+      "/project-1/1.8.jpg"
     ]
   },
   {
     "id": "project-2",
     "title": "House in Kyiv region",
-    "mainImage": "/src/image/projects-images/project-2/2.2.jpg",
+    "mainImage": "/project-2/2.2.jpg",
     "images": [
-      "/src/image/projects-images/project-2/2.1.jpg",
-      "/src/image/projects-images/project-2/2.2.jpg",
-      "/src/image/projects-images/project-2/2.3.jpg",
-      "/src/image/projects-images/project-2/2.4.jpg",
-      "/src/image/projects-images/project-2/2.5.jpg",
-      "/src/image/projects-images/project-2/2.6.jpg",
-      "/src/image/projects-images/project-2/2.7.jpg",
-      "/src/image/projects-images/project-2/2.8.jpg",
-      "/src/image/projects-images/project-2/2.9.jpg",
-      "/src/image/projects-images/project-2/2.10.jpg",
-      "/src/image/projects-images/project-2/2.11.jpg",
-      "/src/image/projects-images/project-2/2.12.jpg",
-      "/src/image/projects-images/project-2/2.13.jpg"
+      "/project-2/2.1.jpg",
+      "/project-2/2.2.jpg",
+      "/project-2/2.3.jpg",
+      "/project-2/2.4.jpg",
+      "/project-2/2.5.jpg",
+      "/project-2/2.6.jpg",
+      "/project-2/2.7.jpg",
+      "/project-2/2.8.jpg",
+      "/project-2/2.9.jpg",
+      "/project-2/2.10.jpg",
+      "/project-2/2.11.jpg",
+      "/project-2/2.12.jpg",
+      "/project-2/2.13.jpg"
     ]
   },
   {
     "id": "project-3",
     "title": "Agroculture",
-    "mainImage": "/src/image/projects-images/project-3/3.1.jpg",
+    "mainImage": "/project-3/3.1.jpg",
     "images": [
-      "/src/image/projects-images/project-3/3.1.jpg",
-      "/src/image/projects-images/project-3/3.2.jpg"
+      "/project-3/3.1.jpg",
+      "/project-3/3.2.jpg"
     ]
   },
   {
     "id": "project-4",
     "title": "Project in the Wood",
-    "mainImage": "/src/image/projects-images/project-4/4.1.jpg",
+    "mainImage": "/project-4/4.1.jpg",
     "images": [
-      "/src/image/projects-images/project-4/4.1.jpg",
-      "/src/image/projects-images/project-4/4.2.jpg",
-      "/src/image/projects-images/project-4/4.3.jpg",
-      "/src/image/projects-images/project-4/4.4.jpg",
-      "/src/image/projects-images/project-4/4.5.jpg",
-      "/src/image/projects-images/project-4/4.6.jpg",
-      "/src/image/projects-images/project-4/4.7.jpg",
-      "/src/image/projects-images/project-4/4.8.jpg",
-      "/src/image/projects-images/project-4/4.9.jpg"
+      "/project-4/4.1.jpg",
+      "/project-4/4.2.jpg",
+      "/project-4/4.3.jpg",
+      "/project-4/4.4.jpg",
+      "/project-4/4.5.jpg",
+      "/project-4/4.6.jpg",
+      "/project-4/4.7.jpg",
+      "/project-4/4.8.jpg",
+      "/project-4/4.9.jpg"
     ]
   },
   {
     "id": "project-5",
     "title": "Modern Church",
-    "mainImage": "/src/image/projects-images/project-5/5.1.jpg",
+    "mainImage": "/project-5/5.1.jpg",
     "images": [
-      "/src/image/projects-images/project-5/5.1.jpg",
-      "/src/image/projects-images/project-5/5.2.jpg",
-      "/src/image/projects-images/project-5/5.3.jpg"
+      "/project-5/5.1.jpg",
+      "/project-5/5.2.jpg",
+      "/project-5/5.3.jpg"
     ]
   },
   {
     "id": "project-6",
     "title": "Visualization of residential building, Switzerland",
-    "mainImage": "/src/image/projects-images/project-6/6.1.jpg",
+    "mainImage": "/project-6/6.1.jpg",
     "images": [
-      "/src/image/projects-images/project-6/6.1.jpg",
-      "/src/image/projects-images/project-6/6.2.jpg",
-      "/src/image/projects-images/project-6/6.3.jpg",
-      "/src/image/projects-images/project-6/6.4.jpg",
-      "/src/image/projects-images/project-6/6.5.jpg"
+      "/project-6/6.1.jpg",
+      "/project-6/6.2.jpg",
+      "/project-6/6.3.jpg",
+      "/project-6/6.4.jpg",
+      "/project-6/6.5.jpg"
     ]
   },
   {
     "id": "project-7",
     "title": "Apartment in Podil Residence",
-    "mainImage": "/src/image/projects-images/project-7/7.1.jpg",
+    "mainImage": "/project-7/7.1.jpg",
     "images": [
-      "/src/image/projects-images/project-7/7.1.jpg",
-      "/src/image/projects-images/project-7/7.2.jpg",
-      "/src/image/projects-images/project-7/7.3.jpg",
-      "/src/image/projects-images/project-7/7.4.jpg",
-      "/src/image/projects-images/project-7/7.5.jpg",
-      "/src/image/projects-images/project-7/7.6.jpg",
-      "/src/image/projects-images/project-7/7.7.jpg",
-      "/src/image/projects-images/project-7/7.8.jpg",
-      "/src/image/projects-images/project-7/7.9.jpg",
-      "/src/image/projects-images/project-7/7.10.jpg",
-      "/src/image/projects-images/project-7/7.11.jpg",
-      "/src/image/projects-images/project-7/7.12.jpg",
-      "/src/image/projects-images/project-7/7.13.jpg",
-      "/src/image/projects-images/project-7/7.14.jpg",
-      "/src/image/projects-images/project-7/7.15.jpg",
-      "/src/image/projects-images/project-7/7.16.jpg"
+      "/project-7/7.1.jpg",
+      "/project-7/7.2.jpg",
+      "/project-7/7.3.jpg",
+      "/project-7/7.4.jpg",
+      "/project-7/7.5.jpg",
+      "/project-7/7.6.jpg",
+      "/project-7/7.7.jpg",
+      "/project-7/7.8.jpg",
+      "/project-7/7.9.jpg",
+      "/project-7/7.10.jpg",
+      "/project-7/7.11.jpg",
+      "/project-7/7.12.jpg",
+      "/project-7/7.13.jpg",
+      "/project-7/7.14.jpg",
+      "/project-7/7.15.jpg",
+      "/project-7/7.16.jpg"
     ]
   },
   {
     "id": "project-8",
     "title": "Apartment in Frantsuzkkyi Kvartal",
-    "mainImage": "/src/image/projects-images/project-8/8.1.jpg",
+    "mainImage": "/project-8/8.1.jpg",
     "images": [
-      "/src/image/projects-images/project-8/8.1.jpg",
-      "/src/image/projects-images/project-8/8.2.jpg",
-      "/src/image/projects-images/project-8/8.3.jpg",
-      "/src/image/projects-images/project-8/8.4.jpg",
-      "/src/image/projects-images/project-8/8.5.jpg",
-      "/src/image/projects-images/project-8/8.6.jpg",
-      "/src/image/projects-images/project-8/8.7.jpg",
-      "/src/image/projects-images/project-8/8.8.jpg"
+      "/project-8/8.1.jpg",
+      "/project-8/8.2.jpg",
+      "/project-8/8.3.jpg",
+      "/project-8/8.4.jpg",
+      "/project-8/8.5.jpg",
+      "/project-8/8.6.jpg",
+      "/project-8/8.7.jpg",
+      "/project-8/8.8.jpg"
     ]
   },
   {
     "id": "project-9",
     "title": "Master Bathroom, Kyiv city",
-    "mainImage": "/src/image/projects-images/project-9/9.1.jpg",
+    "mainImage": "/project-9/9.1.jpg",
     "images": [
-      "/src/image/projects-images/project-9/9.1.jpg",
-      "/src/image/projects-images/project-9/9.2.jpg",
-      "/src/image/projects-images/project-9/9.3.jpg"
+      "/project-9/9.1.jpg",
+      "/project-9/9.2.jpg",
+      "/project-9/9.3.jpg"
     ]
   },
-  {
+  { 
     "id": "project-10",
     "title": "Guest Bathroom",
-    "mainImage": "/src/image/projects-images/project-10/10.1.jpg",
+    "mainImage": "/project-10/10.1.jpg",
     "images": [
-      "/src/image/projects-images/project-10/10.1.jpg",
-      "/src/image/projects-images/project-10/10.2.jpg",
-      "/src/image/projects-images/project-10/10.3.jpg"
+      "/project-10/10.1.jpg",
+      "/project-10/10.2.jpg",
+      "/project-10/10.3.jpg"
+    ]
+  },
+
+  { 
+    "id": "project-11",
+    "title": "Kitchen-living room in a private house, Kyiv",
+    "mainImage": "/project-11/11.1.jpg",
+    "images": [
+      "/project-11/11.1.jpg",
+      "/project-11/11.2.jpg",
+      "/project-11/11.3.jpg",
+      "/project-11/11.4.jpg",
+      "/project-11/11.5.jpg"
+    ]
+  },
+  { 
+    "id": "project-12",
+    "title": "Residential building in Kyiv",
+    "mainImage": "/project-12/12.1.jpg",
+    "images": [
+      "/project-12/12.1.jpg"
+    ]
+  }, 
+
+  { 
+    "id": "project-13",
+    "title": "Bathroom, residential complex Boulevard Fontanov",
+    "mainImage": "/project-13/13.1.jpg",
+    "images": [
+      "/project-13/13.1.jpg",
+      "/project-13/13.2.jpg",
+      "/project-13/13.3.jpg",
+      "/project-13/13.4.jpg",
+      "/project-13/13.5.jpg",
+      "/project-13/13.6.jpg"
+    ]
+  }, 
+  { 
+    "id": "project-14",
+    "title": "Kitchen-living room, residential complex Boulevard Fontanov",
+    "mainImage": "/project-14/14.4.jpg",
+    "images": [
+      "/project-14/14.1.jpg",
+      "/project-14/14.2.jpg",
+      "/project-14/14.3.jpg",
+      "/project-14/14.4.jpg"
+    ]
+  },
+  { 
+    "id": "project-15",
+    "title": "Bedroom, Brovary",
+    "mainImage": "/project-15/15.1.jpg",
+    "images": [
+      "/project-15/15.1.jpg",
+      "/project-15/15.2.jpg",
+      "/project-15/15.3.jpg",
+      "/project-15/15.4.jpg"
+    ]
+  }, 
+  { 
+    "id": "project-16",
+    "title": "Children's bathroom, Brovary",
+    "mainImage": "/project-16/16.1.jpg",
+    "images": [
+      "/project-16/16.1.jpg",
+      "/project-16/16.2.jpg",
+      "/project-16/16.3.jpg"
+    ]
+  },
+  { 
+    "id": "project-17",
+    "title": "Star Wars themed children's room, Brovary",
+    "mainImage": "/project-17/17.1.jpg",
+    "images": [
+      "/project-17/17.1.jpg",
+      "/project-17/17.2.jpg",
+      "/project-17/17.3.jpg"
+    ]
+  },
+  { 
+    "id": "project-18",
+    "title": "House in Brovary, 1st floor",
+    "mainImage": "/project-18/18.3.jpg",
+    "images": [
+      "/project-18/18.1.jpg",
+      "/project-18/18.2.jpg",
+      "/project-18/18.3.jpg",
+      "/project-18/18.4.jpg",
+      "/project-18/18.5.jpg",
+      "/project-18/18.6.jpg"
+    ]
+  },
+  { 
+    "id": "project-19",
+    "title": "Apartment on the Saksaganskogo str.",
+    "mainImage": "/project-19/19.6.jpg",
+    "images": [
+      "/project-19/19.1.jpg",
+      "/project-19/19.2.jpg",
+      "/project-19/19.3.jpg",
+      "/project-19/19.4.jpg",
+      "/project-19/19.5.jpg",
+      "/project-19/19.6.jpg",
+      "/project-19/19.7.jpg",
+      "/project-19/19.8.jpg",
+      "/project-19/19.9.jpg",
+      "/project-19/19.10.jpg",
+      "/project-19/19.11.jpg",
+      "/project-19/19.12.jpg"
+    ]
+  },
+  { 
+    "id": "project-20",
+    "title": "Apartment on the Urizgoko str.",
+    "mainImage": "/project-20/20.14.jpg",
+    "images": [
+      "/project-20/20.1.jpg",
+      "/project-20/20.2.jpg",
+      "/project-20/20.3.jpg",
+      "/project-20/20.4.jpg",
+      "/project-20/20.5.jpg",
+      "/project-20/20.6.jpg",
+      "/project-20/20.7.jpg",
+      "/project-20/20.8.jpg",
+      "/project-20/20.9.jpg",
+      "/project-20/20.10.jpg",
+      "/project-20/20.11.jpg",
+      "/project-20/20.12.jpg",
+      "/project-20/20.13.jpg",
+      "/project-20/20.14.jpg",
+      "/project-20/20.15.jpg",
+      "/project-20/20.16.jpg",
+      "/project-20/20.17.jpg",
+      "/project-20/20.18.jpg",
+      "/project-20/20.19.jpg",
+      "/project-20/20.20.jpg"
+    ]
+  },
+  { 
+    "id": "project-21",
+    "title": "House in Severinovka: kidroom",
+    "mainImage": "/project-21/21.1.jpg",
+    "images": [
+      "/project-21/21.1.jpg",
+      "/project-21/21.2.jpg",
+      "/project-21/21.3.jpg"
+    ]
+  },
+  { 
+    "id": "project-22",
+    "title": "House in Severinovka: kid's bathroom",
+    "mainImage": "/project-22/22.1.jpg",
+    "images": [
+      "/project-22/22.1.jpg",
+      "/project-22/22.2.jpg",
+      "/project-22/22.3.jpg"
+    ]
+  },
+  { 
+    "id": "project-23",
+    "title": "House in Severinovka: shower room",
+    "mainImage": "/project-23/23.1.jpg",
+    "images": [
+      "/project-23/23.1.jpg",
+      "/project-23/23.2.jpg"
+    ]
+  },
+  { 
+    "id": "project-24",
+    "title": "Bathroom in classic style",
+    "mainImage": "/project-24/24.1.jpg",
+    "images": [
+      "/project-24/24.1.jpg",
+      "/project-24/24.2.jpg",
+      "/project-24/24.3.jpg"
+    ]
+  },
+  { 
+    "id": "project-25",
+    "title": "Light guest in classiс style. V2",
+    "mainImage": "/project-25/25.1.jpg",
+    "images": [
+      "/project-25/25.1.jpg",
+      "/project-25/25.2.jpg",
+      "/project-25/25.3.jpg",
+      "/project-25/25.4.jpg"
+    ]
+  },
+  { 
+    "id": "project-26",
+    "title": "Light guest in classic style",
+    "mainImage": "/project-26/26.4.jpg",
+    "images": [
+      "/project-26/26.1.jpg",
+      "/project-26/26.2.jpg",
+      "/project-26/26.3.jpg",
+      "/project-26/26.4.jpg",
+      "/project-26/26.5.jpg"
+    ]
+  },
+  { 
+    "id": "project-27",
+    "title": "Bathroom",
+    "mainImage": "/project-27/27.3.jpg",
+    "images": [
+      "/project-27/27.1.jpg",
+      "/project-27/27.2.jpg",
+      "/project-27/27.3.jpg"
+    ]
+  },
+  { 
+    "id": "project-28",
+    "title": "Apartment in Vushgorod",
+    "mainImage": "/project-28/28.1.jpg",
+    "images": [
+      "/project-28/28.1.jpg",
+      "/project-28/28.2.jpg",
+      "/project-28/28.3.jpg",
+      "/project-28/28.4.jpg",
+      "/project-28/28.5.jpg",
+      "/project-28/28.6.jpg"
+    ]
+  },
+  { 
+    "id": "project-29",
+    "title": "Wood-House",
+    "mainImage": "/project-29/29.1.jpg",
+    "images": [
+      "/project-29/29.1.jpg"
+    ]
+  },
+  { 
+    "id": "project-30",
+    "title": "Kitchen",
+    "mainImage": "/project-30/30.3.jpg",
+    "images": [
+      "/project-30/30.1.jpg",
+      "/project-30/30.2.jpg",
+      "/project-30/30.3.jpg"
+    ]
+  }, 
+  { 
+    "id": "project-31",
+    "title": "Bedroom in a marine style",
+    "mainImage": "/project-31/31.1.jpg",
+    "images": [
+      "/project-31/31.1.jpg",
+      "/project-31/31.2.jpg",
+      "/project-31/31.3.jpg",
+      "/project-31/31.4.jpg"
+    ]
+  },
+  { 
+    "id": "project-32",
+    "title": "Bedroom for girl",
+    "mainImage": "/project-32/32.1.jpg",
+    "images": [
+      "/project-32/32.1.jpg",
+      "/project-32/32.2.jpg",
+      "/project-32/32.3.jpg"
+    ]
+  },
+  { 
+    "id": "project-33",
+    "title": "Bath complex",
+    "mainImage": "/project-33/33.1.jpg",
+    "images": [
+      "/project-33/33.1.jpg",
+      "/project-33/33.2.jpg"
     ]
   }
+
 ]

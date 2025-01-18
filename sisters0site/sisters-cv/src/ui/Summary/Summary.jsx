@@ -1,9 +1,34 @@
 import './summary.sass';
+import {useEffect, useRef} from "react";
 
 
 const Summary = () => {
+    const summaryRef = useRef(null);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const summaryElement = summaryRef.current;
+            if (summaryElement) {
+                const screenWidth = window.innerWidth;
+                if (screenWidth > 960) {
+                    const offsetTop = window.pageYOffset || document.documentElement.scrollTop;
+                    summaryElement.style.marginTop = `${Math.max(0, offsetTop - 350)}px`;
+                } else {
+                    summaryElement.style.marginTop = "0px";
+                }
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
+
     return (
-        <div className='summary-container'>
+        <div ref={summaryRef} className='summary-container'>
             <h1 className='summary-title'>Oleksandra Pohorila</h1>
             <div className='block-1'>
                 <p>Architect-designer with many years of experience in interior
@@ -20,43 +45,43 @@ const Summary = () => {
 
             <div className='block-2'>
 
-               <a
+                <a
                     className='dwnld-link'
                     href="../../../public/files/Pohorila_Oleksandra_CV_2024.pdf"
                     download="Pohorila_Oleksandra_CV_2024.pdf">
                     <span className='summary-btn'>download</span>
                     <a className='open-link'
-                    href="../../../public/files/Pohorila_Oleksandra_CV_2024.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    Pohorila Oleksandra CV PDF
-                </a>
+                       href="../../../public/files/Pohorila_Oleksandra_CV_2024.pdf"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Pohorila Oleksandra CV PDF
+                    </a>
                 </a>
 
                 <a
                     className='dwnld-link'
                     href="../../../public/files/Pohorila_Oleksandra_Recomendation_letter_2024.pdf"
                     download="Pohorila_Oleksandra_Recomendation_letter_2024.pdf">
-                   <span className='summary-btn'>download</span>
+                    <span className='summary-btn'>download</span>
                     <a className='open-link'
-                    href="../../../public/files/Pohorila_Oleksandra_Recomendation_letter_2024.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    Recomendation-letter MACULLO PDf
-                </a>
+                       href="../../../public/files/Pohorila_Oleksandra_Recomendation_letter_2024.pdf"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Recomendation-letter MACULLO PDf
+                    </a>
                 </a>
 
                 <a
                     className='dwnld-link'
                     href="../../../public/files/Pohorila_Oleksandra_Recomendation_letter_INTERIKA_2024.pdf"
                     download="Pohorila_Oleksandra_Recomendation_letter_INTERIKA_2024.pdf">
-                   <span className='summary-btn'>download</span>
+                    <span className='summary-btn'>download</span>
                     <a className='open-link'
-                    href="../../../public/files/Pohorila_Oleksandra_Recomendation_letter_INTERIKA_2024.pdf"
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    Recomendation-letter INTERIKA 2024 PDF
-                </a>
+                       href="../../../public/files/Pohorila_Oleksandra_Recomendation_letter_INTERIKA_2024.pdf"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Recomendation-letter INTERIKA 2024 PDF
+                    </a>
                 </a>
 
             </div>

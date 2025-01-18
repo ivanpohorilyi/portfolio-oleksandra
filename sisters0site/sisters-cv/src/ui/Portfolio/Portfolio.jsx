@@ -16,13 +16,14 @@ const Portfolio = () => {
           <div
             data-bs-toggle="modal"
             data-bs-target={`#modal-${project.id}`}
+            className={"project-card-container"}
           >
             <img
-              src={project.mainImage}
+              src={`/oleksandra-pohorila-cv-build/images-portfolio${project.mainImage}`}
               alt={project.title}
             />
             <div className="card-title">
-              <h5>{project.title}</h5>
+              <h5 className="card-title-h">{project.title}</h5>
             </div>
           </div>
 
@@ -50,7 +51,7 @@ const Portfolio = () => {
                   {project.images.map((image, index) => (
                     <img
                       key={index}
-                      src={image}
+                      src={`/oleksandra-pohorila-cv-build/images-portfolio${image}`}
                       alt={`Project Image ${index + 1}`}
                       style={{
                         width: "100%",
@@ -67,7 +68,7 @@ const Portfolio = () => {
                     className="btn btn-secondary"
                     data-bs-dismiss="modal"
                   >
-                    Закрыть
+                    Cancel
                   </button>
                 </div>
               </div>

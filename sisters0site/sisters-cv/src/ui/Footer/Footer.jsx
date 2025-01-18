@@ -3,9 +3,9 @@ import './footer.sass';
 const Footer = () => {
     return (
         <div className="footer-container">
-            Footer
+          FOOTER
         </div>
-    ) 
+    )
 }
 
 export default Footer;
