@@ -84,6 +84,78 @@ const Summary = () => {
                     </a>
                 </a>
 
+                <h6 className='pdf-title'>Architectural Projects</h6>
+
+                <a
+                    className='dwnld-link'
+                    href="../../../public/files/Residential_building_project1.pdf"
+                    download="Residential_building_project1.pdf">
+                    <span className='summary-btn'>download</span>
+                    <a className='open-link'
+                       href="../../../public/files/Residential_building_project1.pdf"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Residential building project 1 PDF
+                    </a>
+                </a>
+
+                <a
+                    className='dwnld-link'
+                    href="../../../public/files/Residential_building_project2.pdf"
+                    download="Residential_building_project2.pdf">
+                    <span className='summary-btn'>download</span>
+                    <a className='open-link'
+                       href="../../../public/files/Residential_building_project2.pdf"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Residential building project 2 PDF
+                    </a>
+                </a>
+
+                <h6 className='pdf-title'>Interior Design Projects</h6>
+
+                <a
+                    className='dwnld-link'
+                    href="../../../public/files/PDF_BulvarFontanov.pdf"
+                    download="PDF_BulvarFontanov.pdf">
+                    <span className='summary-btn'>download</span>
+                    <a className='open-link'
+                       href="../../../public/files/PDF_BulvarFontanov.pdf"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Bulvar Fontanov PDF
+                    </a>
+                </a>
+
+                <a
+                    className='dwnld-link'
+                    href="../../../public/files/PDF_Dzhon_McKein.pdf"
+                    download="PDF_Dzhon_McKein.pdf">
+                    <span className='summary-btn'>download</span>
+                    <a className='open-link'
+                       href="../../../public/files/PDF_Dzhon_McKein.pdf"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Dzhon McKein PDF
+                    </a>
+                </a>
+
+                <a
+                    className='dwnld-link'
+                    href="../../../public/files/PDF_PodolResidence.pdf"
+                    download="PDF_PodolResidence.pdf">
+                    <span className='summary-btn'>download</span>
+                    <a className='open-link'
+                       href="../../../public/files/PDF_PodolResidence.pdf"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Podol Residence PDF
+                    </a>
+                </a>
+
+
+
+
             </div>
 
             <div className='block-3'>

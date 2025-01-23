@@ -68,7 +68,7 @@ const Portfolio = () => {
                     className="btn btn-secondary"
                     data-bs-dismiss="modal"
                   >
-                    Cancel
+                    Exit
                   </button>
                 </div>
               </div>
