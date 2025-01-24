@@ -62,7 +62,7 @@ a
 // Block 2
 .block-2
   font-family: "Century Gothic"
-  margin-top: 50px
+  margin-top: 30px
   line-height: 20px
 
   a
@@ -96,7 +96,7 @@ a
 
 .block-3
   font-family: "Century Gothic"
-  margin-top: 50px
+  margin-top: 20px
   display: flex
   flex-direction: column
 
@@ -132,6 +132,10 @@ a
 
 .summary-container
   width: 397px
+  position: sticky
+  top: 0
+  z-index: 100
+  align-self: flex-start
 
   @media (max-width: $min)
     margin: 0 auto
@@ -140,10 +144,9 @@ a
     display: flex
     flex-direction: column
     align-items: center
+    position: static
 
 .fixed-summary
   @media screen and (min-width: $medium)
-    position: fixed
-    top: 0
     left: 15%
     z-index: 1000

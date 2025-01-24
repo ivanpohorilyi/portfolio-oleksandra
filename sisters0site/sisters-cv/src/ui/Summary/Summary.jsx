@@ -5,26 +5,26 @@ import {useEffect, useRef} from "react";
 const Summary = () => {
     const summaryRef = useRef(null);
 
-    useEffect(() => {
-        const handleScroll = () => {
-            const summaryElement = summaryRef.current;
-            if (summaryElement) {
-                const screenWidth = window.innerWidth;
-                if (screenWidth > 960) {
-                    const offsetTop = window.pageYOffset || document.documentElement.scrollTop;
-                    summaryElement.style.marginTop = `${Math.max(0, offsetTop - 350)}px`;
-                } else {
-                    summaryElement.style.marginTop = "0px";
-                }
-            }
-        };
+    // useEffect(() => {
+    //     const handleScroll = () => {
+    //         const summaryElement = summaryRef.current;
+    //         if (summaryElement) {
+    //             const screenWidth = window.innerWidth;
+    //             if (screenWidth > 960) {
+    //                 const offsetTop = window.pageYOffset || document.documentElement.scrollTop;
+    //                 summaryElement.style.marginTop = `${Math.max(0, offsetTop - 350)}px`;
+    //             } else {
+    //                 summaryElement.style.marginTop = "0px";
+    //             }
+    //         }
+    //     };
 
-        window.addEventListener("scroll", handleScroll);
+    //     window.addEventListener("scroll", handleScroll);
 
-        return () => {
-            window.removeEventListener("scroll", handleScroll);
-        };
-    }, []);
+    //     return () => {
+    //         window.removeEventListener("scroll", handleScroll);
+    //     };
+    // }, []);
 
 
     return (
