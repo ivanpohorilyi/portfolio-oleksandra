@@ -33,9 +33,9 @@ const Summary = () => {
             <div className='block-1'>
                 <p>Architect-designer with many years of experience in interior
                     and exterior design. I hold a bachelor’s degree from the Kyiv National
-                    University of Civil Engineering and Architecture and have worked with well-known
-                    companies such as Davide Macullo Architects in Switzerland and the INTERICA design
-                    studio in Ukraine.</p>
+                    University of Civil Engineering and Architecture and have worked with
+                    companies such as the INTERICA design studio in Ukraine and 
+                    Davide Macullo Architects in Switzerland</p>
                 <p>I specialize in 3D visualization, technical drawing, and comprehensive project development.
                     I work with programs such as ArchiCAD, 3D Max+Vray, AutoCAD, and Photoshop.</p>
                 <p>I speak English and some Italian. I currently live in Switzerland and aim
